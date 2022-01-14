@@ -1,0 +1,80 @@
+body{
+    font-family: 'Cormorant Garamond', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Serif', serif;
+}
+
+h1{
+    font-size: 50px;
+    
+    margin: 0;
+}
+
+.hover{
+    width: 80%;
+    padding: 50px 100px;
+    
+}
+
+.flexible-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+}
+.half-width img{
+    width: 80%;
+    
+}
+.profile img{ 
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-color:blueviolet;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700; 
+    border-radius:  5px;
+}
+
+hr{
+    border: 1px solid #D1D1D1
+    argin-bottom: 27px;
+}
+
+
+
+#last{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+
+#last-arrow{
+    text-align: right;
+    padding-right:  250px;
+    color: blueviolet;
+    
+}
+
+
+
+#mid-line{
+    text-align: center;
+}
+
+
+
+.ft-lst{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.fab{
+    padding-left: 25px;
