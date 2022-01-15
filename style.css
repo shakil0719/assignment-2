@@ -1,9 +1,12 @@
+/* fonts */
+
 body{
     font-family: 'Cormorant Garamond', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'PT Serif', serif;
 }
 
+/* common style */
 h1{
     font-size: 50px;
     
@@ -28,9 +31,12 @@ h1{
     
 }
 .profile img{ 
-    width: 400px;
+    width: 450px;
     margin-bottom: 30px;
 }
+
+
+/* button style */
 
 .link-button{
     text-decoration: none;
@@ -48,26 +54,66 @@ hr{
 
 
 
-#last{
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
-
-#last-arrow{
+.link{
     text-align: right;
     padding-right:  250px;
     color: blueviolet;
-    
+      
+}
+#none{
+    text-decoration: none;
 }
 
 
 
-#mid-line{
+#title{
     text-align: center;
 }
 
 
+
+/* courses style */
+
+.latest-course{  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    
+padding: 5% 5% 5% 5%;
+    
+}
+
+.course .course-banner img{
+    width: 250px;
+    height: 250px;
+   
+
+}
+
+.course-info{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+
+}
+.fa-star.filled{
+    color: #FFC014;
+
+}
+
+
+
+#last{
+    margin-bottom: 20px;
+    padding: 5%  5%  5%  5%
+}
+
+
+
+/* footer */
 
 .ft-lst{
     text-align: center;
@@ -78,3 +124,12 @@ hr{
 
 .fab{
     padding-left: 25px;
+}
+
+
+
+
+/* media ipad*/
+@media only  screen and (min-width:688px ) and (max-width:992px) {
+
+    }
