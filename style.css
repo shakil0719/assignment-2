@@ -40,7 +40,7 @@ h1{
     width: 400px;
     height: 380px;
     padding-left: 2%;
-    border:2px solid goldenrod;
+    border:1px  rgb(240, 236, 227);
     
     
    
@@ -153,7 +153,35 @@ padding: 5% 5% 5% 5%;
 
 
 
-/* media ipad*/
-@media only  screen and (min-width:688px ) and (max-width:992px) {
+/* media  queries---------mobile devise*/
 
-    }
+@media only  screen and (max-width:576px) {
+    .flexible-container, .course-banner{
+        width: 100%;
+        display: grid;
+    grid-template-columns: repeat(1, 1fr) ;
+    flex-direction: column;
+   
+}
+
+   
+}
+
+
+
+
+/* media qeries tablet */
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    .flexible-container, .course-banner{
+        width: 100%;
+        display: grid;
+    grid-template-columns: repeat(2, 1fr 1fr) ;
+    flex-direction: column;
+   
+}
+
+   
+}
+
+
